@@ -35,6 +35,18 @@
 			<version>2.5</version>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>a0uh9e9l0gqsh-artifactory-primary-0-releases</name>
+        <url>https://abishek.jfrog.io/artifactory/abi_new</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0uh9e9l0gqsh-artifactory-primary-0-snapshots</name>
+        <url>https://abishek.jfrog.io/artifactory/abi_new</url>
+    </snapshotRepository>
+</distributionManagement>
 
 	<build>
 		<finalName>Java-Ansible</finalName>
