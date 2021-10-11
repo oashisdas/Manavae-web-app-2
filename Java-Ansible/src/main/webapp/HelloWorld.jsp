@@ -14,5 +14,6 @@
 <a href="index.jsp"><button>Index</button></a>
 <%= package_1.Class_1.mainn() %>
 <h1><%= package_1.Class_1.main() %></h1>
+<h1>Hello World from <%= package_1.Class_1.IP() %></h1>
 </body>
 </html>
